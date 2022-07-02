@@ -6,13 +6,13 @@ const About = () => {
     <section className="bg-brownWhite py-12 pb-20">
       <div className="container">
         <SectionTitle>About</SectionTitle>
-        <div className="max-w-4xl bg-white px-4 py-8  m-auto mt-20 relative">
+        <div className="max-w-4xl bg-white px-4 pb-8  m-auto mt-20 relative">
           <img
             src="/images/profile.jpg"
             alt="profile"
-            className="absolute w-32 h-32 -top-1/2 left-1/2 -translate-x-1/2 translate-y-1/2 rounded-md"
+            className="block absolute w-32 h-32 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-md"
           />
-          <h4 className="text-2xl uppercase text-center text-gray-600 font-raleway mb-4 mt-12 ">
+          <h4 className="text-2xl uppercase text-center text-gray-600 font-raleway mb-4 pt-20">
             MD Salahuddin
           </h4>
           <div className="flex items-center justify-center space-x-6 mb-6">
@@ -36,11 +36,25 @@ const About = () => {
               <FaLinkedin />
             </a>
           </div>
-          <p className="lg:text-justify text-gray-400 font-light max-w-3xl m-auto">
+          <p className="lg:text-justify text-gray-400 font-light max-w-3xl m-auto mb-4">
             Hi I am MD Salahuddin. A Frontend Web Developer from Bangldesh. I
             love coding,solving problems,building projects,reading books. I
             believe ,there's no limit of learning!
           </p>
+          <div className="max-w-3xl m-auto">
+            <p className="text-gray-400">
+              <span className="text-gray-500 mr-2">Email: </span>{' '}
+              mdsalahuddin465465@gmail.com
+            </p>
+            <p className="text-gray-400">
+              <span className="text-gray-500 mr-2">Mobile: </span>
+              +8801785240648
+            </p>
+            <p className="text-gray-400">
+              <span className="text-gray-500 mr-2">Address: </span>
+              Narsingdi,Dhaka,Bangladesh
+            </p>
+          </div>
         </div>
       </div>
     </section>
