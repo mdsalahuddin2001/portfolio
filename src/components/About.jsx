@@ -25,7 +25,6 @@ const About = () => {
             <a
               href="www.github.com/mdsalahuddin2001"
               className="block text-3xl text-gray-400 hover:text-black transition"
-              text-2xl
             >
               <FaGithub />
             </a>

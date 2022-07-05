@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Quote From Quran",
+    "category": "frontend",
+    "thumbnail": "images/projects/p1.jpg",
+    "github_repo": "https://github.com/mdsalahuddin2001/quote-generator",
+    "live": "https://mdsalahuddin2001.github.io/quote-generator/"
+  },
+  {
+    "id": 2,
+    "title": "Currency Converter",
+    "category": "frontend",
+    "thumbnail": "images/projects/p2.jpg",
+    "github_repo": "https://github.com/mdsalahuddin2001/currency-converter",
+    "live": "https://mdsalahuddin2001.github.io/currency-converter/"
+  },
+  {
+    "id": 3,
+    "title": "Quote From Quran",
+    "category": "backend",
+    "thumbnail": "images/projects/p1.jpg",
+    "github_repo": "https://github.com/mdsalahuddin2001/quote-generator",
+    "live": "https://mdsalahuddin2001.github.io/quote-generator/"
+  },
+  {
+    "id": 4,
+    "title": "Currency Converter",
+    "category": "backend",
+    "thumbnail": "images/projects/p2.jpg",
+    "github_repo": "https://github.com/mdsalahuddin2001/currency-converter",
+    "live": "https://mdsalahuddin2001.github.io/currency-converter/"
+  }
+]
