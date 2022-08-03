@@ -17,18 +17,10 @@
   },
   {
     "id": 3,
-    "title": "Quote From Quran",
-    "category": "full stack",
-    "thumbnail": "images/projects/p1.jpg",
+    "title": "Tailwind Furniture Landing Page",
+    "category": "frontend",
+    "thumbnail": "images/projects/p3.jpg",
     "github_repo": "https://github.com/mdsalahuddin2001/quote-generator",
     "live": "https://mdsalahuddin2001.github.io/quote-generator/"
-  },
-  {
-    "id": 4,
-    "title": "Currency Converter",
-    "category": "full stack",
-    "thumbnail": "images/projects/p2.jpg",
-    "github_repo": "https://github.com/mdsalahuddin2001/currency-converter",
-    "live": "https://mdsalahuddin2001.github.io/currency-converter/"
   }
 ]
