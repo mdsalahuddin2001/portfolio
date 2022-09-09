@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import SectionTitle from './SectionTitle';
+import Skills from './Skills';
 
 const About = () => {
   return (
@@ -15,26 +16,8 @@ const About = () => {
           <h4 className="text-2xl uppercase text-center text-gray-600 font-raleway mb-4 pt-20">
             MD Salahuddin
           </h4>
-          <div className="flex items-center justify-center space-x-6 mb-6">
-            <a
-              href="https://www.facebook.com/mdsalahuddin2001"
-              className="block text-3xl text-gray-400 hover:text-blue-500 transition"
-            >
-              <FaFacebook />
-            </a>
-            <a
-              href="www.github.com/mdsalahuddin2001"
-              className="block text-3xl text-gray-400 hover:text-black transition"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://bd.linkedin.com/mdsalahuddin2001"
-              className="block text-3xl text-gray-400 hover:text-blue-400 transition"
-            >
-              <FaLinkedin />
-            </a>
-          </div>
+
+          <Skills />
           <p className="lg:text-justify text-gray-400 font-light max-w-3xl m-auto mb-4">
             Hi I am MD Salahuddin. A Frontend Web Developer from Bangldesh. I
             love coding,solving problems,building projects,reading books. I
@@ -53,6 +36,26 @@ const About = () => {
               <span className="text-gray-500 mr-2">Address: </span>
               Narsingdi,Dhaka,Bangladesh
             </p>
+          </div>
+          <div className="flex items-center justify-center space-x-8 my-4">
+            <a
+              href="https://www.facebook.com/mdsalahuddin2001"
+              className="block text-3xl text-gray-400 hover:text-blue-500 transition"
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="www.github.com/mdsalahuddin2001"
+              className="block text-3xl text-gray-400 hover:text-black transition"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://bd.linkedin.com/mdsalahuddin2001"
+              className="block text-3xl text-gray-400 hover:text-blue-400 transition"
+            >
+              <FaLinkedin />
+            </a>
           </div>
         </div>
       </div>
