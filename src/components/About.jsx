@@ -9,7 +9,7 @@ const About = () => {
         <SectionTitle>About</SectionTitle>
         <div className="max-w-4xl bg-white px-4 pb-8  m-auto mt-20 relative">
           <img
-            src="/images/profile.jpg"
+            src="https://avatars.githubusercontent.com/u/70274046?v=4"
             alt="profile"
             className="block absolute w-32 h-32 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-md"
           />
