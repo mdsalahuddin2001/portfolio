@@ -9,10 +9,10 @@ const Button = ({
   return (
     <button
       type={type}
-      className={`px-8 py-3 cursor-pointer uppercase transition duration-300 ${
+      className={`px-8 py-3 cursor-pointer uppercase transition duration-300 hover:shadow-xl rounded-sm active:scale-95 ${
         variant === 'primary'
-          ? 'bg-primary border border-primary  hover:text-primary hover:bg-transparent'
-          : 'bg-secondary border border-secondary hover:text-secondary hover:bg-transparent'
+          ? 'bg-primary border border-primary'
+          : 'bg-secondary border border-secondary'
       }  text-white ${className} `}
     >
       {children}

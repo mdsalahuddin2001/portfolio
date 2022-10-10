@@ -49,7 +49,22 @@ const Projects = () => {
           full stack
         </button>
       </div>
+      <div className="container">
+        {(activeCategory === 'all' || activeCategory === 'backend') && (
+          <p className="text-gray-400 text-sm m-4 font-light">
+            Full stack projects can take 2-3 minutues on first load! Thank You
+            for your patient.
+          </p>
+        )}
+      </div>
       <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {projects.length === 0 && (
+          <p className="text-gray-400 text-sm font-light">
+            No projects found for{' '}
+            <span className="text-red-400">{activeCategory}!</span>
+          </p>
+        )}
+
         {projects.map((project) => {
           const { id } = project;
           return <Project key={id} project={project} />;

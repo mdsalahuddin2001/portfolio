@@ -21,7 +21,6 @@ const Banner = () => {
             Frontend web developer
           </h4>
           <div className="space-x-4">
-            <Button className="text-xs">Hire me</Button>
             <Button className="text-xs" variant="secondary">
               download cv
             </Button>
