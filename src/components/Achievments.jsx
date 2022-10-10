@@ -2,7 +2,7 @@ import SectionTitle from './SectionTitle';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 const Achievements = () => {
   return (
-    <section className="bg-brownWhite py-12">
+    <section id="achievement" className="bg-brownWhite py-12">
       <SectionTitle>Achievements</SectionTitle>
       <div className="container">
         <a

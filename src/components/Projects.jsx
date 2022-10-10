@@ -18,7 +18,7 @@ const Projects = () => {
     setActiveCategory(cat);
   };
   return (
-    <section className="py-12">
+    <section id="projects" className="py-12">
       <SectionTitle>Projects</SectionTitle>
       <div className="container flex items-center justify-center space-x-4 mb-8">
         <button

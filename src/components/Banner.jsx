@@ -1,7 +1,10 @@
 import Button from '../components/Button';
 const Banner = () => {
   return (
-    <div className="container min-h-screen flex items-center justify-center">
+    <div
+      id="home"
+      className="container min-h-screen flex items-center justify-center"
+    >
       <div className="space-y-8 lg:space-y-0 lg:flex ">
         <div className="flex justify-center items-center flex-1 lg:order-1">
           <img

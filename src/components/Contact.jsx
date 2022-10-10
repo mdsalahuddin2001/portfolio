@@ -31,7 +31,7 @@ const Contact = () => {
     };
   }, [succeeded]);
   return (
-    <section className="py-12">
+    <section id="contact" className="py-12">
       <div className="container">
         <SectionTitle>Contact</SectionTitle>
         <div className="flex items-center max-w-4xl m-auto bg-white shadow-lg">

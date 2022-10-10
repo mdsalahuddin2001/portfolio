@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
-import Button from '../components/Button';
+
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
   const linksRef = useRef(null);
@@ -17,6 +17,18 @@ const Navbar = () => {
   //   Toggle links
   const toggleLinks = () => {
     setShowLinks(!showLinks);
+  };
+
+  // handle scroll
+  const handleScroll = (e) => {
+    e.preventDefault();
+    const target = e.target.getAttribute('href');
+    const location = document.querySelector(target).offsetTop;
+
+    window.scrollTo({
+      left: 0,
+      top: location - 64,
+    });
   };
   return (
     <nav className="py-4 shadow fixed top-0 left-0 right-0 z-10 bg-white">
@@ -44,19 +56,33 @@ const Navbar = () => {
             className="block lg:flex list-none m-0 pt-6  lg:pt-0 space-y-2 lg:space-y-0 items-center lg:space-x-6 uppercase text-sm text-gray-600   "
           >
             <li className="hover:text-primary transition cursor-pointer">
-              home
+              <a href="#home" onClick={handleScroll}>
+                home
+              </a>
             </li>
             <li className="hover:text-primary transition cursor-pointer">
-              about
+              <a href="#about" onClick={handleScroll}>
+                about
+              </a>
             </li>
             <li className="hover:text-primary transition cursor-pointer">
-              projects
+              <a href="#projects" onClick={handleScroll}>
+                projects
+              </a>
             </li>
             <li className="hover:text-primary transition cursor-pointer">
-              contact
+              <a href="#contact" onClick={handleScroll}>
+                contact
+              </a>
             </li>
             <li className="hidden lg:block">
-              <Button>Contact Me</Button>
+              <a
+                href="#contact"
+                onClick={handleScroll}
+                className="px-8 py-3 cursor-pointer uppercase transition duration-300 hover:shadow-xl rounded-sm active:scale-95 bg-primary text-white"
+              >
+                Contact Me
+              </a>
             </li>
           </ul>
         </div>
