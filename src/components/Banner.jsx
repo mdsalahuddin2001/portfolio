@@ -1,4 +1,4 @@
-import Button from '../components/Button';
+import Button from "../components/Button";
 const Banner = () => {
   return (
     <div
@@ -24,9 +24,11 @@ const Banner = () => {
             Frontend web developer
           </h4>
           <div className="space-x-4">
-            <Button className="text-xs" variant="secondary">
-              download cv
-            </Button>
+            <a href="cv_mdsalahuddin.pdf">
+              <Button className="text-xs" variant="secondary">
+                download cv
+              </Button>
+            </a>
           </div>
         </div>
       </div>
